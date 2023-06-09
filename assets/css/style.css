@@ -32,19 +32,24 @@ h6 {
   padding: 0;
 }
 a {
-    color: #666666;
+  color: #666666;
   text-decoration: none;
 }
 p {
-	font-family: Montserrat;
-	font-weight: 400;
-	font-size: 15px;
-	line-height: 1.7;
-	color: #666666;
-	margin: 0px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #666666;
+  margin: 0px;
 }
-.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-	max-width: 1200px;
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  max-width: 1200px;
 }
 .navbar {
   background-color: #f9f5f5;
@@ -107,7 +112,7 @@ button:not(:disabled) {
   margin-left: 20px;
 }
 .nav-icon i:hover {
-  color: #d61c22!important;
+  color: #d61c22 !important;
 }
 #menu {
   padding-top: 50px;
@@ -163,7 +168,7 @@ button:not(:disabled) {
   text-align: center;
   padding-top: 15px;
 }
-.btn-2:hover{
+.btn-2:hover {
   background: #d61c22;
   color: #ffff;
 }
@@ -178,76 +183,76 @@ button:not(:disabled) {
   text-transform: uppercase;
   letter-spacing: 3px;
 }
-.img-left{
+.img-left {
   padding-bottom: 20px;
 }
-#about{
-    margin-top: 50px;
-    background: url(../images/bg.png) no-repeat center / cover;
-    padding: 50px 0;
+#about {
+  margin-top: 50px;
+  background: url(../images/bg.png) no-repeat center / cover;
+  padding: 50px 0;
 }
-.about-text h2{
-    text-align: center;
-    font-family: Poppins;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 1.2;
-    color: #222222;
-    text-transform: uppercase;
-    letter-spacing: 6px;
-  }
-.about-text p{
-    max-width: 513px;
-    text-align: justify;
-    margin-bottom: 22px;
-    padding-left: 20px;
+.about-text h2 {
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 6px;
 }
-.read-more{
-        font-family: Montserrat;
-        font-weight: 400;
-        font-size: 12px;
-        color: #222222;
-        text-transform: uppercase;
-        letter-spacing: 1px;
+.about-text p {
+  max-width: 513px;
+  text-align: justify;
+  margin-bottom: 22px;
+  padding-left: 20px;
 }
-.read-more:hover{
-    color: #d61c22;
+.read-more {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 12px;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
-.about-image{
-    display: inline-block;
-    overflow: hidden;
-    border-radius: 10px;
+.read-more:hover {
+  color: #d61c22;
 }
-.about-image img{
-    width: 370px;
-    height: 370px;
-    max-width: 100%;
-  }
-  .about-image img:hover {
-    -webkit-transform: scale(1.2); /* Safari and Chrome */
-    -moz-transform: scale(1.2); /* Firefox */
-    -ms-transform: scale(1.2); /* IE 9 */
-    -o-transform: scale(1.2); /* Opera */
-    transform: scale(1.2);
-    transition: all 0.6s;
-  }
-  #bg-text{
+.about-image {
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.about-image img {
+  width: 370px;
+  height: 370px;
+  max-width: 100%;
+}
+.about-image img:hover {
+  -webkit-transform: scale(1.2); /* Safari and Chrome */
+  -moz-transform: scale(1.2); /* Firefox */
+  -ms-transform: scale(1.2); /* IE 9 */
+  -o-transform: scale(1.2); /* Opera */
+  transform: scale(1.2);
+  transition: all 0.6s;
+}
+#bg-text {
   background: url(../images/bg-2.jpg) no-repeat center / cover;
   background-attachment: fixed;
   backface-visibility: hidden;
 }
-.bg-text{
+.bg-text {
   text-align: center;
 }
-.bg-text h2{
-font-family: Courgette;
-font-size: 30px;
-line-height: 1.2;
-color: #d61c22;
-padding-top: 50px;
-padding-bottom: 15px;
+.bg-text h2 {
+  font-family: Courgette;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #d61c22;
+  padding-top: 50px;
+  padding-bottom: 15px;
 }
-.bg-text h3{
+.bg-text h3 {
   font-family: Poppins;
   font-weight: 700;
   font-size: 50px;
@@ -258,10 +263,10 @@ padding-bottom: 15px;
   word-spacing: 6px;
   padding-bottom: 150px;
 }
-#intro{
+#intro {
   padding-top: 50px;
 }
-.intro-img{
+.intro-img {
   display: inline-block;
   overflow: hidden;
   border-radius: 10px;
@@ -284,42 +289,42 @@ padding-bottom: 15px;
   transform: scale(1.2);
   transition: all 0.6s;
 }
-.intro-text h4{
-font-family: Poppins;
-font-weight: 500;
-font-size: 22px;
-color: #333333;
-text-transform: uppercase;
-letter-spacing: 3px;
-margin-top:30px;
+.intro-text h4 {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 22px;
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 30px;
 }
-.intro-text h4:hover{
+.intro-text h4:hover {
   color: #d61c22;
   cursor: pointer;
 }
-.intro-text p{
+.intro-text p {
   font-family: Montserrat;
-font-weight: 400;
-font-size: 15px;
-line-height: 1.7;
-color: #666666;
-margin-top: 20px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #666666;
+  margin-top: 20px;
 }
-#offer{
+#offer {
   margin-top: 50px;
   background: url(../images/2.jpg) no-repeat center/ cover;
   padding: 50px 0;
 }
-.offer-header{
+.offer-header {
   text-align: center;
 }
-.offer-header span{
-font-family: Courgette;
-font-size: 30px;
-line-height: 1.2;
-color: #d61c22;
+.offer-header span {
+  font-family: Courgette;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #d61c22;
 }
-.offer-header h3{
+.offer-header h3 {
   font-family: Poppins;
   font-weight: 700;
   font-size: 50px;
@@ -329,62 +334,62 @@ color: #d61c22;
   letter-spacing: 6px;
   word-spacing: 6px;
 }
-.offer-image-text{
+.offer-image-text {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
- margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 .offer-img {
-background-image: url(../images/event-02.jpg);
-background-position: center center;
-background-repeat: no-repeat;
-background-size: cover;
-width: 50%;
-min-height: 390px;
-margin-top: 30px;
+  background-image: url(../images/event-02.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  min-height: 390px;
+  margin-top: 30px;
 }
-@media (max-width: 576px) { 
-  .offer-image-text{
+@media (max-width: 576px) {
+  .offer-image-text {
     display: inline;
   }
-  .offer-img{
+  .offer-img {
     width: 100%;
   }
-  .offer-text{
+  .offer-text {
     width: 100% !important;
   }
- }
-.offer-text{
+}
+.offer-text {
   background-color: white;
   width: 50%;
-min-height: 390px;
-margin-top: 30px;
+  min-height: 390px;
+  margin-top: 30px;
 }
-.offer-text h4{
+.offer-text h4 {
   font-family: Poppins;
-font-weight: 500;
-font-size: 22px;
-line-height: 1.2;
-color: #222222;
-text-transform: uppercase;
-letter-spacing: 3px;
-margin-top: 40px;
-margin-bottom: 65px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.2;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 40px;
+  margin-bottom: 65px;
 }
-.offer-text p{
+.offer-text p {
   max-width: 513px;
   margin: 0 auto;
   font-family: Montserrat;
-font-weight: 400;
-font-size: 15px;
-line-height: 1.7;
-color: #666666;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #666666;
 }
 #book-table {
   margin-top: 50px;
 }
-@media (max-width: 576px){
+@media (max-width: 576px) {
   .main-form div {
     width: 200px;
   }
@@ -394,7 +399,7 @@ color: #666666;
   .main-form div select {
     width: 85% !important;
   }
-  .table-img img{
+  .table-img img {
     width: 100%;
     overflow: hidden;
   }
@@ -462,7 +467,7 @@ color: #666666;
   background-color: rgb(46, 20, 5) !important;
   color: #fff !important;
 }
-.table-img{
+.table-img {
   display: block;
   overflow: hidden;
   margin-top: 50px;
@@ -484,19 +489,19 @@ color: #666666;
   transform: scale(1.2);
   transition: all 0.6s;
 }
-#news{
+#news {
   padding-top: 80px;
 }
-.news-header{
+.news-header {
   text-align: center;
 }
-.news-header span{
+.news-header span {
   font-family: Courgette;
-font-size: 30px;
-line-height: 1.2;
-color: #d61c22;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #d61c22;
 }
-.news-header h3{
+.news-header h3 {
   font-family: Poppins;
   font-weight: 700;
   font-size: 50px;
@@ -537,9 +542,3 @@ footer h6 {
 .last-icon-text i:hover {
   color: #d61c22;
 }
-
-
-
-
-  
-

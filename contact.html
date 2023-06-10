@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>about us</title>
+    <title>Contact</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta
@@ -20,7 +20,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
       integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
       crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
   </head>
   <body>
     <nav class="navbar navbar-expand-md">
@@ -36,7 +36,6 @@
           aria-controls="navbarNavDropdown"
           aria-expanded="false"
           aria-label="Toggle navigation">
-          <!-- <span class="navbar-toggler-icon"></span> -->
           <i class="fa-solid fa-bars-progress"></i>
         </button>
         <div class="collapse navbar-collapse nav-menu" id="navbarNavDropdown">
@@ -99,76 +98,28 @@
       </div>
     </nav>
     <div class="banner">
-      <h1>About us</h1>
+      <h1>Latest News</h1>
     </div>
-    <section id="about">
-      <div class="container">
-        <h2>Garden place</h2>
-        <h3>About us</h3>
-        <p>
-          Welcome to Garden palace – Dhaka’s one and only fine seafood
-          restaurant! Garden palace presents scintillating Continental & Asian
-          recipes that will stimulate the palate of the fussiest of gastronomes.
-          Garden palace basks in pride on the freshness of its products., each,
-          prepared with choice seafood, fresh vegetables and accompanying
-          ingredients. OPEN ALL DAY! EVERYDAY!
-        </p>
-        <p>
-          Many years ago, when Garden palace first opened its doors, the seafood
-          dining scene in Dhaka was more or less non-existent, today. Garden
-          palace is an iconic eatery and often the first choice of seafood
-          connoisseurs in our city.
-        </p>
-        <p>
-          Having moved into new premises recently, it continues to follow the
-          same gusto for seafood and the pandemic won't bog that down, with
-          policies such as wearing masks and social distancing maintained in
-          order to protect the staff and customers alike, operations continue.
-        </p>
-        <p>
-          As opposed to those large complexes housing numerous eateries and
-          other institutions, Garden palace feels cosy, being in a single-unit
-          building. It allows to 'give a particular character to a restaurant.
-          As you step inside, the marine and fish themed decor -- from fish
-          motifs on the walls, to decorative instruments and objects of the ship
-          like the anchor, to even miniature 'boats' fashioned as lamps.
-        </p>
-        <p>
-          With the appetite for seafood kicked in, the menu will then offer you
-          a wide plethora of delicacies to satisfy the palate. Garden palace
-          shall spoil you with choices. There are myriad soups and starters to
-          pick from. The kebabs and koftas will continue to delight your taste
-          buds. From Grilled Lobster to King Crab, and from 'Pesto- Pangash!' to
-          'Totally Tilapia!', and be it salmon or more exotic delicacies, Garden
-          palace has it covered. With fish-steaks, sizzlers, fillets, and pastas
-          and so on, the eatery will not let you down.
-        </p>
-        <p>
-          The dish of scallops and shrimps was by itself large enough. With
-          salad and fried rice on the side, the centre stage is occupied by a
-          potato 'basket' containing, of course, scallops and shrimps, along
-          with mushrooms (lots of it, thankfully) and other goodies. A
-          flavorsome, spicy, and filling treat! Accompanied by their mock tails
-          or fresh juices, and finishing it all off with desserts, Garden palace
-          will live up to its name.
-        </p>
-        <p>
-          You may opt for our catch-of-the-day, which a treat of whole fish
-          cooked to your liking, with a range of styles and options to choose
-          from. On the other hand, we also serve surf and turf dishes -- great
-          if your loyalty is torn between meat and seafood, that is. However,
-          leaned towards seafood, and in came Scallops & Shrimp Lagniappe, after
-          trying out their deliciously tangy and hot Tom Yam Kung.
-        </p>
-        <p>
-          The legacy continues! Essential info Garden palace is now at House #
-          23/A, Road # 99, Gulshan-2. For home delivery, it has tie-ups with a
-          number of food delivery services, whilst also providing delivery
-          service ourselves in and around Gulshan.
-        </p>
-        <h4>FOR BOOKINGS OR MORE INFO, DIAL +880 1711 119692</h4>
+    <div class="container">  
+        <form id="contact" action="form" method="post">
+          <h3 class="text-center">Send us a Message </h3>
+          <fieldset>
+            <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Email Address" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+            <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+        </form>
       </div>
-    </section>
     <footer>
       <div class="container">
         <div class="row">

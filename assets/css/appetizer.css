@@ -75,14 +75,12 @@ button:not(:disabled) {
   .navbar {
     width: 100%;
     height: 9%;
-  }
-  .slider {
-    padding-top: 100px;
+    position: static;
   }
   .navbar-brand img {
     width: 200px;
     height: 95px;
-    margin-top: -50px;
+    margin-top: -35px;
   }
 }
 .nav-icon i {
@@ -97,41 +95,31 @@ button:not(:disabled) {
   padding: 250px 0;
 }
 .banner h1 {
+  color: #fff;
   font-size: 45px;
   font-weight: 800;
   letter-spacing: 4px;
   text-align: center;
   text-transform: uppercase;
-  color: #fff;
 }
-#about {
+#apprtizer {
   padding-top: 80px;
 }
-#about h2 {
+#apprtizer h2 {
+  font-size: 45px;
+  font-weight: 800;
+  letter-spacing: 4px;
   text-align: center;
-  font-family: Courgette;
-  font-size: 30px;
-  line-height: 1.2;
-  color: #d61c22;
-}
-#about h3 {
-  text-align: center;
-  font-family: Poppins;
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 1.2;
-  color: #222222;
   text-transform: uppercase;
-  letter-spacing: 6px;
+  padding-bottom: 40px;
 }
-#about p {
-  font-size: 18px;
-  letter-spacing: 2px;
-  line-height: 35px;
-  padding-bottom: 20px;
-}
-#about h4 {
+#apprtizer h2 {
   text-align: center;
+  color: #d61c22;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+#apprtizer h3 {
   font-family: Poppins;
   font-weight: 500;
   font-size: 24px;
@@ -139,6 +127,28 @@ button:not(:disabled) {
   color: #ff0000;
   text-transform: uppercase;
   letter-spacing: 3px;
+}
+#apprtizer h4 {
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 18px;
+  color: #333333;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+#apprtizer h4:hover {
+  color: #d61c22;
+}
+#apprtizer p {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 13px;
+  color: #666666;
+  line-height: 1.7;
+}
+.right h4 {
+  padding-bottom: 40px;
 }
 footer {
   background: rgb(33, 37, 41);

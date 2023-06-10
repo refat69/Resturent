@@ -102,7 +102,7 @@ button:not(:disabled) {
   text-align: center;
   text-transform: uppercase;
 }
-.gallery {
+.gallery-main {
   padding-top: 80px;
 }
 .gallery {

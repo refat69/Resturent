@@ -50,7 +50,7 @@ a {
   color: #d61c22 !important;
 }
 .nav-menu ul li a {
-  color: #000 !important;
+  color: #09b529 !important;
   text-transform: uppercase;
   margin-left: 30px;
   font-weight: 400;
@@ -100,7 +100,7 @@ button:not(:disabled) {
   letter-spacing: 4px;
   text-align: center;
   text-transform: uppercase;
-  color: #fff;
+  color: #d61c22;
 }
 #about {
   padding-top: 80px;
@@ -118,7 +118,7 @@ button:not(:disabled) {
   font-weight: 700;
   font-size: 50px;
   line-height: 1.2;
-  color: #222222;
+  color: #09b529;
   text-transform: uppercase;
   letter-spacing: 6px;
 }
@@ -164,7 +164,7 @@ footer h6 {
 .last {
   background: #000;
   padding: 30px 0;
-  color: #fff;
+  color: #09b529;
 }
 .last-icon-text i:hover {
   color: #d61c22;

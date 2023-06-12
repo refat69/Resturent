@@ -30,13 +30,13 @@ a {
   max-width: 1200px;
 }
 .navbar {
-  background-color: #f9f5f5;
-  opacity: 0.8;
   position: fixed;
   width: 100%;
   height: 12%;
+  background-color: #f9f5f5;
   z-index: 1;
   --bs-navbar-padding-y: 0;
+  opacity: 0.8;
 }
 .navbar-brand img {
   width: 200px;
@@ -50,12 +50,12 @@ a {
   color: #d61c22 !important;
 }
 .nav-menu ul li a {
-  color: #000 !important;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  color: #09b529!important;
   text-transform: uppercase;
   margin-left: 30px;
-  font-weight: 400;
-  font-size: 14px;
-  font-family: Montserrat;
 }
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
@@ -73,9 +73,9 @@ button:not(:disabled) {
 }
 @media (max-width: 576px) {
   .navbar {
+    position: static;
     width: 100%;
     height: 9%;
-    position: static;
   }
   .navbar-brand img {
     width: 200px;
@@ -95,21 +95,21 @@ button:not(:disabled) {
   padding: 240px 0;
 }
 .banner h1 {
+  text-align: center;
   color: #fff;
   font-size: 45px;
   font-weight: 800;
   letter-spacing: 4px;
-  text-align: center;
   text-transform: uppercase;
 }
 #apprtizer {
   padding-top: 80px;
 }
 #apprtizer h2 {
+  text-align: center;
   font-size: 45px;
   font-weight: 800;
   letter-spacing: 4px;
-  text-align: center;
   text-transform: uppercase;
   padding-bottom: 40px;
 }
@@ -121,31 +121,31 @@ button:not(:disabled) {
 }
 #apprtizer h3 {
   font-family: Poppins;
-  font-weight: 500;
   font-size: 24px;
+  font-weight: 500;
   line-height: 1.2;
-  color: #ff0000;
-  text-transform: uppercase;
   letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #09b529;
 }
 #apprtizer h4 {
   font-family: Poppins;
-  font-weight: 300;
   font-size: 18px;
-  color: #333333;
+  font-weight: 300;
   line-height: 1.4;
   text-transform: uppercase;
   letter-spacing: 2px;
+  color: #333333;
 }
 #apprtizer h4:hover {
   color: #d61c22;
 }
 #apprtizer p {
   font-family: Montserrat;
-  font-weight: 400;
   font-size: 13px;
-  color: #666666;
+  font-weight: 400;
   line-height: 1.7;
+  color: #666666;
 }
 .right h4 {
   padding-bottom: 40px;
@@ -175,8 +175,8 @@ footer h6 {
 }
 .last {
   background: #000;
+  color: #09b529;
   padding: 30px 0;
-  color: #fff;
 }
 .last-icon-text i:hover {
   color: #d61c22;

@@ -134,13 +134,13 @@ button:not(:disabled) {
   word-spacing: 8px;
 }
 .menu-image {
-  width: 100%;
-  overflow: hidden;
   display: inline-block;
+  overflow: hidden;
   border-radius: 10px;
   position: relative;
 }
 .menu-image img {
+  width: 100%;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -ms-transition: all 0.2s ease;
@@ -179,6 +179,11 @@ button:not(:disabled) {
   color: #333333;
   text-transform: uppercase;
   letter-spacing: 3px;
+}
+.left{
+  display: inline-block;
+  overflow: hidden;
+  width: 100%;
 }
 .img-left {
   padding-bottom: 20px;
@@ -400,6 +405,13 @@ button:not(:disabled) {
     width: 100%;
     overflow: hidden;
   }
+  #submit{
+    text-align: left !important;
+  }
+  #submit input {
+    width: 140px !important;
+    height: 40px;
+  }
 }
 .form-text {
   text-align: center;
@@ -424,39 +436,51 @@ button:not(:disabled) {
 }
 .main-form div input {
   width: 100%;
+  border-radius: 10px;
   background: none;
-  border: 1px solid #ffca00;
-  font-size: 20px;
+  border: 1px solid #d61c22;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666666;
   outline: none;
   padding: 3px 0 3px 10px;
   margin-top: 10px;
 }
 .main-form div select {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666666;
+  background: #fff;
   width: 100%;
-  background: #202020;
-  border: 1px solid #ffca00;
-  font-size: 20px;
+  border: 1px solid #d61c22;
+  border-radius: 10px;
   outline: none;
   padding: 3px 0 3px 10px;
   margin-top: 10px;
 }
 .main-form div span {
   width: 100%;
-  font-size: 25px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 15px;
+  color: #555555;
 }
 #submit {
   width: 100%;
   text-align: center;
 }
 #submit input {
-  width: 200px;
-  background-color: yellow !important;
-  color: black !important;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #000 !important;
+  color: #fff !important;
   transition: all 0.3s;
 }
 #submit input:hover {
-  width: 200px;
-  background-color: black !important;
+  background-color: #d61c22 !important;
   color: #fff !important;
 }
 #submit input:active {
